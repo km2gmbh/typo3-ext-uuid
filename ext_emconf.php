@@ -1,5 +1,5 @@
 <?php
-$EM_CONF[$_EXTKEY] = array(
+$EM_CONF[$_EXTKEY] = [
   'title' => 'UUIDs',
   'description' => 'Brings UUID functionality to TYPO3 CMS tables',
   'category' => 'system',
@@ -18,16 +18,16 @@ $EM_CONF[$_EXTKEY] = array(
   'lockType' => '',
   'version' => '0.1.0',
   'constraints' =>
-  array(
+  [
     'depends' =>
-    array(
-      'typo3' => '10.4.0-11.5.99',
-    ),
+    [
+      'typo3' => '12.4.99',
+    ],
     'conflicts' =>
-    array(
-    ),
+    [
+    ],
     'suggests' =>
-    array(
-    ),
-  ),
-);
+    [
+    ],
+  ],
+];
