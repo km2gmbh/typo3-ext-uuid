@@ -30,7 +30,7 @@ class UuidResolver
                 ['uuid' => $uuid]
             );
 
-        return $result->fetchColumn(0) ?: null;
+        return $result->fetchOne() ?: null;
     }
 
     /**
